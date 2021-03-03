@@ -11,6 +11,8 @@ exports.helloWorld = functions.https.onRequest((request, response) => {
 
 const token = 'Bearer xxx'
 
+const dialogflowid = 'yyy';
+
 const LINE_MESSAGING_API = 'https://api.line.me/v2/bot/message';
 
 const LINE_HEADER = {
